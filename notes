@@ -1,0 +1,58 @@
+
+
+
+
+
+13.11 on video
+
+
+
+  Original Ship Design Code  {
+
+    fill(192,192, 192)
+    rect(x,y,40,80)
+    fill(192,192,192)
+    triangle(x+5, y+90, x-26, y+40, x+5, y+40)
+    fill(192,192,192)
+    triangle(x+35, y+90, x+66, y+40, x+35, y+40)
+
+    }
+
+
+  Original Ship With X-axis movement {
+
+    fill(192,192, 192)
+    rect(mouseX,y,40,80)
+    fill(192,192,192)
+    triangle(mouseX+5, y+90, mouseX-26, y+40, mouseX+5, y+40)
+    fill(192,192,192)
+    triangle(mouseX+35, y+90, mouseX+66, y+40, mouseX+35, y+40)
+
+}
+
+  WIP Shooting mechanism
+
+    if (mouseIsPressed) {
+        fill(255, 0, 0)
+        noStroke()
+        ellipse(mouseX, mouseY, 40, 40)
+    }
+
+-----------------------------------------------------------
+
+fill(255)
+    triangle(E1X, E1Y, E1X+30, E1Y+115, E1X, E1Y+130)
+
+
+
+
+fill(192,192, 192);
+    rect(mouseX,y,40,80);
+    fill(192,192,192);
+    triangle(mouseX+5, y+90, mouseX-26, y+40, mouseX+5, y+40);
+    fill(192,192,192);
+    triangle(mouseX+35, y+90, mouseX+66, y+40, mouseX+35, y+40);
+
+    fill(250,0,0)
+    triangle(EnemySprite.eX, EnemySprite.eY, EnemySprite.eX + 30, EnemySprite.eY + 15, EnemySprite.eX, EnemySprite.eY + 30)
+    EnemySprite.eX = EnemySprite.eX + 1
